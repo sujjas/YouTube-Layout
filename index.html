@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Layout</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="w-full h-auto">
+        <!-- nav bar section -->
+        <div class="w-full h-auto flex flex-row justify-between items-center px-6 pt-1 pb-1">
+
+            <!-- left section -->
+            <div class="w-fit h-auto flex flex-row justify-start items-start gap-x-2">
+
+                <div class="w-fit h-auto">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="w-[60px] h-auto ">
+                    <img src="/Images/Youtube logo.png" alt="Youtube logo" class="w-full h-auto">
+                </div>
+                
+            </div>
+            
+            <!-- middle section -->
+            <div class="w-2/5 h-auto flex flex-row justify-center items-center gap-x-2">
+
+                <div class="w-full h-auto flex flex-row justify-center items-center py-3">
+
+                    <div class="w-full h-auto">
+                        <input type="search" placeholder="Search" class="rounded-l-full placeholder:pl-4 placeholder:text-sm placeholder:font-extralight  border-l border-t border-b border-gray-300 w-full h-auto placeholder:align-top">
+                    </div>
+
+                    <div class="w-fit h-auto bg-gray-100 rounded-r-full px-3 border border-gray-300 hover:bg-gray-200 cursor-pointer">
+                        <i class="fa-solid fa-magnifying-glass text-sm text-gray-500"></i>
+                    </div>
+
+                </div>
+
+                <div class="w-fit h-auto bg-gray-100 px-3 py-2 rounded-full flex flex-row justify-center items-center  hover:bg-gray-200 cursor-pointer">
+                    <i class="fa-solid fa-microphone text-sm text-gray-500"></i>
+                </div>
+               
+            </div>
+
+            <!-- right icon -->
+            <div class=" w-fit h-auto flex flex-row justify-end items-center gap-x-4 ">
+
+                <div class="w-fit h-auto cursor-pointer">
+                    <i class="fa-solid fa-video text-gray-500"></i>
+                </div>
+
+                <div class="w-fit h-auto cursor-pointer">
+                    <i class="fa-regular fa-bell text-gray-500"></i>
+                </div>
+
+                <div class="w-6 h-6 rounded-full bg-orange-500 flex flex-row justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-d text-white text-[0.7rem]"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- body section -->
+        <div class="w-full h-auto  flex flex-row justify-start items-start gap-x-12 px-2">
+
+            <!-- left nav bar -->
+            <div class="w-1/6 h-auto flex flex-col justify-start items-start gap-y-2">
+
+                <!-- top 3 elements -->
+                <div class="w-full h-auto flex flex-col justify-start items-start gap-y-1 pt-2 pb-4 border-b border-gray-300">
+
+                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4 bg-gray-100 active:bg-slate-200 px-4 py-2 rounded-lg cursor-pointer">   
+                        <div class="w-5 h-5 flex flex-row justify-center items-center">
+                            <i class="text-gray-800 fa-solid fa-house"></i>
+                        </div>
+                    
+                        <h3 class="text-gray-800 font-normal text-sm">Home</h3>
+                    </div>
+
+                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4 hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                        <div class="w-5 h-5 flex flex-row justify-center items-center">
+                            <i class="text-gray-800 fa-solid fa-bolt"></i>
+                        </div>
+                        
+                        <h3 class="text-gray-800 font-normal text-sm">Shorts</h3>
+                    </div>
+
+                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                        <div class="w-5 h-5 flex flex-row justify-center items-center ">
+                            <i class="text-gray-800 fa-regular fa-folder-open"></i>
+                        </div>
+                        
+                        <h3 class="text-gray-800 font-normal text-sm">Subscriptions</h3>
+                    </div>
+                    
+                </div>
+
+                <!-- middle 3 elements -->
+                <div class="w-full h-auto flex flex-col justify-start items-start gap-y-1 pt-2 pb-4 border-b border-gray-300">
+
+                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1  hover:bg-gray-100 px-4 py-2 rounded-lg">
+
+                        <h2 class="font-medium">You</h2>
+
+                        <div class="w-5 h-5 flex flex-row justify-center items-center">
+                            <i class="text-gray-800 fa-solid fa-angle-right"></i>
+                        </div>
+                        
+                    </div>
+
+                    
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-1 ">
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-solid fa-clock-rotate-left"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">History</h3>
+                        </div>
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-solid fa-music"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Playlists</h3>
+                        </div>
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-regular fa-clock"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Watch Later</h3>
+                        </div>
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-regular fa-thumbs-up"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Liked videos</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- lower 3 elements -->
+                <div class="w-full h-auto flex flex-col justify-start items-start gap-y-1 pt-2 pb-4 border-b border-gray-300">
+
+                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 px-4 py-2 rounded-lg">
+
+                        <h2 class="font-medium">Explore</h2>
+                        
+                    </div>
+
+                    
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-1 ">
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-solid fa-fire"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Trending</h3>
+                        </div>
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-solid fa-headphones"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Music</h3>
+                        </div>
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-brands fa-playstation"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Gaming</h3>
+                        </div>
+
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-regular fa-newspaper"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">News</h3>
+                        </div>
+                        
+                        <div class="w-full h-auto flex flex-row justify-start items-center gap-x-4  hover:bg-gray-100 px-4 py-2 rounded-lg cursor-pointer">
+                            <div class="w-5 h-5 flex flex-row justify-center items-center">
+                                <i class="text-gray-800 fa-solid fa-person-skiing-nordic"></i>
+                            </div>
+                            <h3 class="text-gray-800 font-normal text-sm">Sport</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- video section -->
+            <div class="w-5/6 h-auto py-2 pr-4 flex flex-col justify-start items-start gap-y-4">
+
+                <!-- top filters -->
+                <div class="w-full h-auto flex flex-row justify-start items-center gap-x-2">
+                    <button class="bg-gray-800 rounded-md px-2 py-1 text-xs text-white tracking-tight">All</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Nollywood</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Music</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Martial Arts Movies</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Action Thrillers</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Gaming</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Sketch Comedy</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">News</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight" >Playlists</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Live</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Reggae</button>
+                    <button class="bg-gray-100 hover:bg-gray-200 rounded-md px-2 py-1 text-xs tracking-tight">Premier League</button>
+                   
+                </div>
+                <!-- video grid section -->
+                <div class="w-full h-auto grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-3 lg:grid-cols-4 lg:gap-5">
+
+                    <!-- video card 1 -->
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer hover:rounded-none">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Prayer\ and\ worship\ session\ 4.png);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/color choices copy 2.jpg" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Spirit Filled Prayer and Worship Session with Apostle Grace Lubega</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- video card 2 -->
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Power.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover  bg-slate-800" src="/Images/phaneroo logo.png" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">The Power of Patience | Phaneroo Sunday Service 26</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">Phaneroo Ministries International</p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">63k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">Streamed 8 months ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- video card 3 -->
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/MKBHD.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/Complex_(new_logo).png" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Marques Brownlee Goes Sneaker Shopping With</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">Complex </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">644k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- video card 4 -->
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Forbes.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/Forbes-Logo-360x225.png" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Why All Brands Should Study Stanley Cup CEO Terence</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                     <!-- video card 5 -->
+                     <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Yazirwana.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/brian lubega.jpeg" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Yazirwana (LIVE) - He fights my battles || Brian Lubega</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                      <!-- video card 6-->
+                      <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Pray\ and\ wait.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/dappyt keys.jpeg" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Pray & Wait On The Lord: Instrumental Piano Worship |</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                      <!-- video card 7 -->
+                      <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Pray\ and\ wait.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/dappyt keys.jpeg" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Spirit Filled Prayer and Worship Session with Apostle Grace Lubega</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                      <!-- video card 8 -->
+                      <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Prayer\ and\ worship\ session\ 4.png);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/Prayer and worship session 4.png" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Spirit Filled Prayer and Worship Session with Apostle Grace Lubega</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- video card 5 -->
+                    <div class="w-full h-auto flex flex-col justify-start items-start gap-y-2 cursor-pointer">
+                        
+
+                        <!-- bg image -->
+                        <div style="background-image: url(/Images/Yazirwana.jpg);" class="w-full h-auto p-24 rounded-md bg-cover bg-center">
+
+                        </div>
+
+                        <!-- details -->
+                        <div class="w-full h-auto flex flex-row justify-start items-start gap-x-3">
+
+                            <div class="w-[32px] h-[32px] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover bg-slate-800" src="/Images/brian lubega.jpeg" alt="">
+                            </div>
+
+                            <div class="w-5/6 h-auto flex flex-col justify-start items-start gap-y-1">
+
+                                <h3 class="leading-tight font-medium text-[1rem]">Yazirwana (LIVE) - He fights my battles || Brian Lubega</h3>
+                            
+                                <div class="w-full h-auto">
+                                    <p class="text-gray-600 font-light text-[0.875rem]">The God Life </p>
+
+                                    <div class="w-full h-auto flex flex-row justify-start items-center gap-x-1 text-gray-300">
+                                    
+                                         <p class="text-gray-600 font-light text-[0.875rem]">23k views</p>
+                                         <i class="fa-solid fa-circle text-[0.15rem] text-gray-600"></i>
+                                         <p class="text-gray-600 font-light text-[0.875rem]">2 weeks ago</p>
+
+                                     </div>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
